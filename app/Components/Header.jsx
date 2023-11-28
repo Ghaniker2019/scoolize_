@@ -10,11 +10,11 @@ export default function Header() {
       <Link href="/"><Image src={logo} alt="Logo" style={styles.logo} /></Link>
       <nav>
         <ul style={styles.navList}>
-          <Link href="/What" style={styles.linkStyle}><li style={styles.navItem}>Cest quoi</li></Link>
-          <Link href="/FAQ" style={styles.linkStyle}><li style={styles.navItem}>FAQ</li></Link>
-          <Link href="/Contact" style={styles.linkStyle}><li style={styles.navItem}>Contact</li></Link>
-          <Link href="/SignIn" style={styles.linkStyle}><li style={styles.navItem}>Créer mon compte</li></Link>
+          <Link href="/Univ" style={styles.linkStyle}><li style={styles.navItem}>Plateforme universitaire</li></Link>
+          <Link href="/Teacher" style={styles.linkStyle}><li style={styles.navItem}>Plateforme enseignant</li></Link>
+          <Link href="/Student" style={styles.linkStyle}><li style={styles.navItem}>Plateforme étudiant</li></Link>
           <Link href="/Login" style={styles.linkStyle}><li style={styles.navItem}>Me connecter</li></Link>
+          <Link href="/Contact" style={styles.linkStyle}><li style={styles.navItem}>Contact</li></Link>
         </ul>
       </nav>
     </header>

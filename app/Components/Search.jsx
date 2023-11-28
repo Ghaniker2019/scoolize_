@@ -22,7 +22,7 @@ export default Search
 const styles = {
     container: {
       backgroundColor: '#F5F5FE',
-      border: '1px solid green',
+      border: '1px solid #F5F5FE',
       margin: "40px 100px"
     },
     title: {
