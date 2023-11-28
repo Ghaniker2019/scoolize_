@@ -1,5 +1,4 @@
 import Header from './Components/Header.jsx'
-import Search from './Components/Search'
 
 
 export default function Home() {

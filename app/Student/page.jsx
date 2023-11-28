@@ -1,7 +1,8 @@
 import Header from '../Components/Header'
 import Search from '../Components/Search'
+import Card from '../Components/Card'
 
-const SignIn = () => (
+const Student = () => (
     <>    <Header/>
     <h1 style={{
             display: 'flex',        // Utilisez flexbox
@@ -11,8 +12,9 @@ const SignIn = () => (
         }}>Plateforme étudiant</h1>
             <p style={{margin: "100px"}}>Rechercher une formation</p>
         <Search/>
+        <Card/>
     </>
 
 )
 
-export default SignIn;
+export default Student;
